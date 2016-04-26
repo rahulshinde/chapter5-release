@@ -71,6 +71,11 @@
 		IMG STYLING
 	============================= */
 
+.half-image {
+	width: 80%;
+	margin-left: 10%;
+}
+
 
 /*  =======================
     MEDIA QUERIES
