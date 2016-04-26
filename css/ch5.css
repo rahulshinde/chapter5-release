@@ -1,0 +1,89 @@
+/* 	================= 
+		CHAPTER5.CSS
+	================= */
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+/** {
+	background-color: rgba(0,0,0,0.3);
+}*/
+
+
+/* 	=============================
+		TEXT STYLING
+	============================= */
+
+.poem-left,
+.poem-middle,
+.poem-right,
+.poem-left-half,
+.poem-right-half,
+.poem-half,
+.poem {
+	text-align: center;
+}
+
+.poem-left {
+	float: left;
+	margin-right: 2%;
+	width: 32%;
+}
+
+.poem-middle {
+	float: left;
+	width: 32%;
+}
+
+.poem-right {
+	float: right;
+	width: 32%;
+}
+
+.poem-left-half {
+	float: left;
+	margin-right: 2%;
+	width: 49%;
+
+}
+
+.poem-right-half {
+	float: right;
+	width: 49%;
+}
+
+.poem-half {
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+}
+
+
+
+/* 	=============================
+		IMG STYLING
+	============================= */
+
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media (max-width: 900px) { 
+
+}
+
+@media (max-width: 710px) { 
+
+
+}
+
+
+
