@@ -465,7 +465,6 @@ li {
     background-size: 60%;
 }
 
-.ch5,
 .ch6,
 .ch7,
 .ch8,
@@ -515,10 +514,10 @@ a:hover {
 	background-color: #ffcfa7;
 }
 
-/*.ch5:hover,
-.ch10:hover {
+.ch5:hover
+/*.ch10:hover*/ {
 	background-color: #ffcaca;
-}*/
+}
 
 .tl {
 	border-radius: 10px 0 0 0;
@@ -691,11 +690,11 @@ a:hover {
 		background-color: #ffda60;
 	}
 
-	/*.ch5:hover {
+	.ch5:hover {
 		background-color: #ffd676;
 	}
 
-	.ch6:hover {
+	/*.ch6:hover {
 		background-color: #ffd489;
 	}
 
@@ -713,8 +712,8 @@ a:hover {
 
 	.ch10:hover {
 		background-color: #ffcaca
-	}
-*/
+	}*/
+
 	.intro-text,
 	.intro-close {
 		display: none;
@@ -754,18 +753,18 @@ a:hover {
 	.ch1,
 	.ch2,
 	.ch3,
-	.ch4 {
+	.ch4,
+	.ch5 {
 		background-image: none;
 	}
 
-	.ch4 {
+	.ch5 {
 		border-bottom: none;
 		border-radius: 0 0 10px 10px;
 		-webkit-border-radius: 0 0 10px 10px;
 		-moz-border-radius: 0 0 10px 10px;
 	}
 
-	.ch5,
 	.ch6,
 	.ch7,
 	.ch8,
