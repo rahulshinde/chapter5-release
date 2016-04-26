@@ -21,6 +21,45 @@
 		TEXT STYLING
 	============================= */
 
+
+.history-title {
+	width: 50%;
+	color: blue;
+}
+
+.history {
+	float: left;
+    width: 50%;
+    margin-bottom: 10px;
+    font-family: 'PT Serif Caption', serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.history-quote {
+    width: 80%;
+    padding: 2%;
+    margin-left: 8%;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 34px;
+    text-align: center;
+    line-height: 46px;
+    color: #ffcaca;
+    border: 1px solid #ffcaca;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.poetry-title {
+	width: 80%;
+	margin-left: 10%;
+	color: blue;
+}
+
 .poem-left,
 .poem-middle,
 .poem-right,
@@ -63,6 +102,20 @@
 	width: 50%;
 	margin-left: 25%;
 	text-align: center;
+}
+
+.poem-title {
+	font-family: 'PT Serif Caption', serif;
+    font-size: 17px;
+    line-height: 21px;
+    color: #ffcaca;
+}
+
+.poem {
+	font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: blue;
 }
 
 
