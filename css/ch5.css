@@ -137,6 +137,16 @@
 	margin-left: 10%;
 }
 
+.sched1 {
+	margin-top: 100px;
+	float: right;
+	width: 40%;
+}
+
+.sched2 {
+	margin-left: 10%;
+	width: 80%;
+}
 
 /*  =======================
     MEDIA QUERIES
