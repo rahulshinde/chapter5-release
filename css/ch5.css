@@ -269,6 +269,88 @@
 		margin-left: 0;
 	}
 
+	.poetry-title {
+		width: 100%;
+		margin-left: 0%;
+	}
+
+
+	
+}
+
+@media (max-width: 750px) { 
+	
+	.history-quote {
+	    font-size: 24px;
+	    line-height: 36px;
+	}
+
+	
+}
+
+@media (max-width: 650px) { 
+	
+	.history-quote {
+		width: 100%;
+		margin-left: 0;
+		padding: 0;
+	    font-size: 24px;
+	    line-height: 36px;
+	    border: none;
+	}
+
+	.poem-left,
+	.poem-middle,
+	.poem-right,
+	.poem-left-half,
+	.poem-right-half,
+	.poem-half,
+	.poem,
+	.poem-title {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+
+	.poem-title {
+		font-family: 'PT Serif Caption', serif;
+	    font-size: 22px;
+	    line-height: 30px;
+	    color: #ffcaca;
+	}
+
+	.poem {
+		font-family: 'PT Sans', sans-serif;
+	    font-size: 16px;
+	    line-height: 20px;
+	    color: blue;
+	}
+
+
+	.poem-top {
+		margin-top: -90px;
+	}
+
+	
+}
+
+@media (max-width: 500px) { 
+
+	.poem-title {
+		font-family: 'PT Serif Caption', serif;
+	    font-size: 18px;
+	    line-height: 28px;
+	}
+
+	.poem {
+		font-family: 'PT Sans', sans-serif;
+	    font-size: 12px;
+	    line-height: 16px;
+	}
+
+	.poem-top {
+		margin-top: -90px;
+	}
 
 	
 }
