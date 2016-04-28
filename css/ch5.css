@@ -213,13 +213,64 @@
     MEDIA QUERIES
     ======================= */
 
-@media (max-width: 900px) { 
+@media (max-width: 1000px) { 
+
+	.history2-title {
+		margin-left:00%;
+		width: 50%;
+	}
+
+	.history2 {
+		margin-left:0%; 
+	    width: 50%;
+	}
+
+	.history-quote {
+	    margin-bottom: 25px;
+	}
+
+	.sched3 {
+		margin-top: -80px;
+		float: right;
+		margin-right: 0%;
+		width: 40%;
+	}
 
 }
 
-@media (max-width: 710px) { 
+@media (max-width: 900px) { 
+	.history-title,
+	.history2-title,
+	.history,
+	.history2 {
+		width: 100%;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.history-quote {
+	    margin-bottom: 25px;
+	}
+
+	.sched1,
+	.sched2,
+	.sched3,
+	.sched4,
+	.sched5 {
+		display: none;
+	}
+
+	.image-left,
+	.image-right {
+		margin-top: 0;
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
 
 
+	
 }
 
 
